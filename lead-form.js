@@ -4,7 +4,7 @@ const rendaInput = document.querySelector("#renda");
 const formStatus = document.querySelector("#formStatus");
 
 // Edite somente este numero para trocar o WhatsApp de destino.
-const WHATSAPP_NUMBER = "5541988097432";
+const WHATSAPP_NUMBER = "5541991272834";
 
 function onlyNumbers(value) {
   return value.replace(/\D/g, "");
@@ -63,7 +63,7 @@ function buildLeadMessage() {
   const restricao = getFieldValue(formData, "restricao");
 
   return [
-    "Olá, Yuki!",
+    "Olá, João!",
     "",
     "Preenchi a pré-análise de crédito pelo Minha Casa Minha Vida.",
     "",
